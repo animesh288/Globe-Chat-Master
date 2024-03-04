@@ -1,0 +1,11 @@
+.message-box{
+    position : fixed;
+    bottom: 0px;
+    width:100%;
+}
+.bi-telegram {
+font-size:40px;
+}
+.bi-telegram:hover{
+    cursor: pointer;
+}

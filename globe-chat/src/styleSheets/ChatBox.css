@@ -1,0 +1,80 @@
+/* .messageUser p{
+    text-align: left;
+    float: right;
+    color :snow;
+    width:40%;
+    background-color:crimson;
+    word-wrap: break-word;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    clear: both;
+}
+
+.messageSender p{
+    display: inline;
+    float: left;
+    text-align: left;
+    color :snow;
+    width:40%;
+    background-color:chartreuse;
+    word-wrap: break-word;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    clear: both;
+}
+.messageAdmin p{
+    display:block;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+} */
+
+.innerAdmin{
+    text-align: center;
+}
+.innerAdmin p {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: larger;
+}
+.innerUser p{
+    text-align: left;
+    float: right;
+    color :snow;
+    width:40%;
+    background-color:crimson;
+    word-wrap: break-word;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.innerSender p{
+    text-align: left;
+    float: left;
+    color :snow;
+    width:40%;
+    background-color:tomato;
+    word-wrap: break-word;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width:991px){
+    .innerSender p,.innerUser p{
+        width:50%;
+    }
+}
+@media screen and (max-width:767px){
+    .innerSender p,.innerUser p{
+        width:60%;
+    }
+}
+@media screen and (max-width:575px){
+    .innerSender p,.innerUser p{
+        width:80%;
+    }
+}
